@@ -1,0 +1,216 @@
+.logout-container {
+    width: 100%;
+    padding: 20px;
+}
+
+
+.logout-wrap {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-image {
+    width: 60%;
+    height: 100%;
+}
+
+.logout-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logout-form {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0px 55px;
+}
+
+.informative {
+    margin-bottom: 50px;
+}
+
+.informative a {
+    text-decoration: none;
+}
+
+.informative h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.informative p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.informative p span {
+    font-weight: 600 !important;
+    color: #169aff;
+}
+
+.mails {
+    width: 100%;
+    position: relative;
+}
+
+.hide-show {
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.hide-show img {
+    width: 17px;
+    height: auto;
+}
+
+.em {
+    position: absolute;
+    bottom: 12px;
+    left: 0px;
+}
+
+.em img {
+    width: 17px;
+    height: auto;
+}
+
+.mails h3 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.paas {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #169aff;
+    margin: 10px 0px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+
+.paas::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.paas:focus {
+    outline: none;
+}
+
+
+.check-mark {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logout-form button {
+    width: 100%;
+    height: 53px;
+    border: none;
+    color: #fff;
+    background-color: #169aff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 32px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 500;
+    color: #B5B5B5;
+    margin: 10px 0px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 36px;
+    height: auto;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.checker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkers {
+    margin-right: 10px;
+    transform: scale(1.4);
+}
+
+
+
+
+@media(max-width:1200px) {
+    .logout-image {
+        width: 0%;
+        display: none;
+    }
+
+    .logout-form {
+        width: 100%;
+    }
+}
+
+@media(max-width:900px) {
+    .informative {
+        text-align: center;
+    }
+}
+
+
+@media(max-width:768px) {
+
+    .logout-container {
+        width: 100%;
+        padding: 10px 0px;
+        padding-right: 10px;
+    }
+
+    .logout-wrap {
+        padding: 0px 10px;
+    }
+}
+
+@media(max-width:550px) {
+    .logout-form {
+        padding: 10px;
+    }
+
+    .logout-wrap {
+        padding: 0px;
+    }
+
+    .check-mark {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,271 @@
+.contract-wrap {
+    width: 100%;
+    padding: 30px;
+    background-color: #eef5f9;
+}
+
+.vfreewd {
+    padding-bottom: 10px;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.contact-form form input {
+    width: 375px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    color: #54667a;
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+.contact-form form input:focus {
+    outline: none;
+}
+
+.contact-form .button {
+    height: 38px;
+    color: #fff;
+    background-color: #169aff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: .875rem;
+    border-radius: 4px;
+    border: none;
+    padding: 0px 15px;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.contact-form .button:hover {
+    box-shadow: 0 7px 7px #1e88e542;
+}
+
+
+.button img {
+    width: 18px;
+    height: auto;
+    margin-right: 8px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(155deg) brightness(105%) contrast(101%);
+}
+
+
+.contact-data {
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-data table {
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+}
+
+
+.contact-data table tr th {
+    text-align: start;
+    background-color: #ffffff;
+    padding: 20px;
+    font-weight: 500;
+    border-top: 1px solid #e8eef3;
+}
+
+.contact-data table tr th input {
+    transform: scale(1.6);
+}
+
+.contact-data table tr td input {
+    transform: scale(1.6);
+}
+
+.contact-data table tr td {
+    text-align: start;
+    background-color: #ffffff;
+    padding: 13px 20px;
+    font-weight: 400;
+    color: #67757c;
+}
+
+.name {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: -3px;
+}
+
+.namers {
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+
+
+.single-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.single-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.single-name img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.checked {
+    margin-right: 40px;
+}
+
+
+.deleter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: #fc4b6c;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .3s;
+}
+
+
+.blur {
+    filter: invert(23%) sepia(3%) saturate(2283%) hue-rotate(169deg) brightness(87%) contrast(92%);
+}
+
+.deleter img {
+    width: 20px;
+    height: auto;
+    margin-right: 3px;
+    filter: invert(64%) sepia(76%) saturate(5842%) hue-rotate(322deg) brightness(100%) contrast(98%);
+    margin-top: -5px;
+}
+
+.deleters {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.deleters button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.deleters button img {
+    width: 16px;
+    height: auto;
+}
+
+.blue {
+    filter: invert(42%) sepia(88%) saturate(991%) hue-rotate(186deg) brightness(90%) contrast(101%);
+    transition: .3s;
+}
+
+.blue:hover {
+    filter: invert(27%) sepia(72%) saturate(1508%) hue-rotate(186deg) brightness(95%) contrast(95%);
+}
+
+
+
+
+
+
+@media(max-width:1350px) {
+    .contract-wrap {
+        padding: 30px 10px;
+    }
+
+    .contact-data {
+        overflow-y: clip;
+        overflow-x: scroll;
+    }
+
+
+
+    .contact-data::-webkit-scrollbar {
+        width: 16px;
+        transition: .3s;
+
+    }
+
+    .contact-data::-webkit-scrollbar-thumb {
+        background-color: #ff00;
+        border-radius: 10px;
+        border: 5px solid rgba(0, 0, 0, 0);
+        background-clip: padding-box;
+        transition: .3s;
+    }
+
+    .contact-data:hover::-webkit-scrollbar-thumb {
+        background-color: #00000033;
+        transition: .3s;
+    }
+
+    .contact-data table {
+        width: 1050px;
+    }
+}
+
+@media(max-width:580px) {
+
+    .contact-form form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:450px) {
+
+    .contact-form form input {
+        width: 100%;
+    }
+}

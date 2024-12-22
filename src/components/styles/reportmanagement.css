@@ -1,0 +1,63 @@
+.report-management {
+    width: 100%;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.reportmanage-wrap {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.fhdfdkjfhj {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.modalSpecial {
+    padding: 10px 20px;
+}
+
+.modalSpecial .modal-dialog {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+
+.bigform input {
+    width: 32% !important;
+}
+
+.input-box {
+    width: 32%;
+}
+
+.input-box input {
+    width: 100% !important;
+}
+
+.pagWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: clip;
+}
+
+.singlePage {
+    width: 100% !important;
+}
+
+.pagWrap ul {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}

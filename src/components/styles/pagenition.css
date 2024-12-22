@@ -1,0 +1,45 @@
+.pagenition {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.pagenition-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pagenition-wrap button {
+    width: 40px;
+    height: 30px;
+    margin: 0px 2px;
+    border: 1px solid #169aff;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #67757c;
+}
+
+.pagenition-wrap button.active {
+    background-color: #169aff;
+    color: #fff;
+}
+
+
+
+.pagenition-wrap button img {
+    width: 15px;
+    height: auto;
+}
+
+.lefts {
+    transform: rotate(90deg);
+}
+
+.rights {
+    transform: rotate(-90deg);
+}

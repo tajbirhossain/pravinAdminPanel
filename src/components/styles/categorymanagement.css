@@ -1,0 +1,120 @@
+.categort-management {
+    width: 100%;
+    padding: 20px;
+}
+
+.categori-single {
+    width: 100%;
+    background-color: #e8eff3;
+}
+
+.contact-form form button img {
+    width: 15px;
+    height: auto;
+}
+
+
+
+
+.modal-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mcvncv input {
+    width: 100% !important;
+}
+
+
+.modal-form input {
+    width: 48%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #b2b2b2;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.modal-form input::placeholder {
+    color: #000;
+}
+
+.modal-form input:focus {
+    outline: none;
+}
+
+.modal-form textarea {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    border: 1px solid #b2b2b2;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.modal-form textarea::placeholder {
+    color: #000;
+}
+
+.modal-form textarea:focus {
+    outline: none;
+}
+
+
+.filer {
+    border: none !important;
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+
+
+.modal-form button {
+    height: 38px;
+    color: #fff;
+    background-color: #169aff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: .875rem;
+    border-radius: 4px;
+    border: none;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quil-wrap {
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.quil {
+    width: 100%;
+    height: 120px;
+}
+
+.delete-wraop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.delete-operation {
+    height: 38px;
+    background-color: #169aff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: .875rem;
+    border-radius: 4px;
+    border: none;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 15px;
+}

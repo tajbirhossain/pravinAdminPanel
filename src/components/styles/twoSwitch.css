@@ -1,0 +1,39 @@
+.switchWrap {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.switchWrap .singleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 49px;
+    background-color: #ff00;
+    color: #000000;
+    text-decoration: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.switchWrap .singleBtn.active {
+    color: #fff;
+}
+
+.bgBlue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #169aff;
+    transition: .3s;
+}
+
+.bgBlue.active {
+    left: 50%;
+}
